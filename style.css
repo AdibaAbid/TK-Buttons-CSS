@@ -2,6 +2,13 @@ button{
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     margin: 12px;
+    cursor: pointer;
+}
+ 
+#cart-btn :hover{
+    background-color: grey;
+    box-shadow: 0px 0px 5px white;
+
 }
 
 #cart-btn{
