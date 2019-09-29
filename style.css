@@ -1,0 +1,55 @@
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: 12px;
+}
+
+#cart-btn{
+    color: white;
+    background-color:  #c63928;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 18px 60px;;
+    border: none;
+
+}
+#start-btn{
+    font-family: 'Gugi', cursive;
+    color: #2a61fb;
+    font-size: 1.5em;
+    border: 2px solid #2a61fb;
+    background-color: #fdd835;
+    padding: 10px 15px;
+
+}
+#login-btn{
+    color: white;
+    background-image: linear-gradient(to right, #59d0da, #a5d386);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+
+}
+#signup-btn{
+    color: #6749ea;
+    background-color: white;
+    border: 3px solid #6749ea;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#subs-btn{
+    color: white;
+    background-image: linear-gradient(to bottom, #f9c433, #f5a332);
+    border: 3px solid #f59f31;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 7px grey;
+}
+#twitter{
+    font-size: 20px;
+    color: #37a1f3;
+    background-color: white;
+    border: 2px solid #37a1f3;
+    border-radius: 50px;
+    padding: 12px 15px; 
+}
