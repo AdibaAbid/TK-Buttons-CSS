@@ -4,12 +4,6 @@ button{
     margin: 12px;
     cursor: pointer;
 }
- 
-#cart-btn :hover{
-    background-color: grey;
-    box-shadow: 0px 0px 5px white;
-
-}
 
 #cart-btn{
     color: white;
@@ -18,8 +12,11 @@ button{
     font-family: 'Montserrat', sans-serif;
     padding: 18px 60px;;
     border: none;
-
 }
+#cart-btn:hover {
+background-color: #9c372b;
+} 
+
 #start-btn{
     font-family: 'Gugi', cursive;
     color: #2a61fb;
@@ -27,6 +24,10 @@ button{
     border: 2px solid #2a61fb;
     background-color: #fdd835;
     padding: 10px 15px;
+}
+#start-btn:hover{
+    background-color: #2a61fb;
+    color: #fdd835;
 
 }
 #login-btn{
@@ -35,7 +36,9 @@ button{
     border: none;
     border-radius: 50px;
     padding: 10px 30px;
-
+}
+#login-btn:hover{
+    box-shadow: 0px 0px 5px darkblue;
 }
 #signup-btn{
     color: #6749ea;
@@ -43,6 +46,10 @@ button{
     border: 3px solid #6749ea;
     border-radius: 10px;
     padding: 10px 20px;
+}
+#signup-btn:hover{
+    background-color: #6749ea;
+    color: white;
 }
 #subs-btn{
     color: white;
@@ -52,6 +59,10 @@ button{
     border-radius: 5px;
     text-shadow: 1px 1px 7px grey;
 }
+#subs-btn:hover{
+    background-color: #f59f31;
+    background-image: none;
+}
 #twitter{
     font-size: 20px;
     color: #37a1f3;
@@ -59,4 +70,8 @@ button{
     border: 2px solid #37a1f3;
     border-radius: 50px;
     padding: 12px 15px; 
+}
+#twitter:hover{
+    background-color: #37a1f3;
+    color:white;
 }
